@@ -1,0 +1,79 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    margin-top:100px;
+    padding: 0;
+}
+
+button {
+    background-color: #000000;
+    color: white;
+    border: 2px solid #ffffff;
+    padding: 20px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-media a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #b0b6b0;
+}
+
+.resetBtn {
+    background-color: #000000;
+    color: white;
+    border: 2px solid #ffffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+.resetBtn:hover {
+    background-color: #acb2ac;
+    color: #000000;
+}
+
+button:hover {
+    background-color: #b0b6b0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.js-result, .js-moves, .js-score {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+@media (max-width: 600px) {
+    button {
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .resetBtn {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .js-result, .js-moves, .js-score {
+        font-size: 16px;
+    }
+}
